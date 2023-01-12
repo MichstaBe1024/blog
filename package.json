@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-theme-reco": "^1.6.16"
+  }
+}
